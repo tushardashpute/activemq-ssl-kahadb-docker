@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  activemq:
+    container_name: activemq-ssl
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - "61616:61616"
+      - "61617:61617"
+      - "8161:8161"
+    volumes:
+      - activemq-data:/opt/activemq/data
+    restart: unless-stopped
+
+volumes:
+  activemq-data:

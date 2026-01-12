@@ -21,11 +21,8 @@ Assuming your ActiveMQ installation structure:
 
 ```
 /opt/activemq/
-├─ bin/
-├─ conf/
-│  └─ ssl/
+├─ ssl/
 ├─ data/
-├─ lib/
 └─ activemq.xml
 ```
 

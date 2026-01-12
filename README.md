@@ -119,6 +119,9 @@ export JAVA_TOOL_OPTIONS="-Djavax.net.ssl.trustStore=/opt/activemq/conf/ssl/clie
 '
 ```
 
+<img width="1600" height="448" alt="image" src="https://github.com/user-attachments/assets/0bacf5ef-3959-415a-a73c-4f8980018999" />
+
+
 Expected output:
 
 ```
@@ -154,6 +157,11 @@ export JAVA_TOOL_OPTIONS="-Djavax.net.ssl.trustStore=/opt/activemq/conf/ssl/clie
   --messageCount 1
 '
 ```
+<img width="1600" height="424" alt="image" src="https://github.com/user-attachments/assets/f174b875-4de2-4b85-b63b-27d02e471ff8" />
+
+**Output in the UI:**
+
+<img width="1600" height="797" alt="image" src="https://github.com/user-attachments/assets/166a3024-15c1-490f-aa78-357eafdaf28a" />
 
 Expected output:
 
